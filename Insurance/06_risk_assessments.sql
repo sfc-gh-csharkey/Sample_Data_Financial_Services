@@ -1,6 +1,6 @@
--- FSI_DEMO_DB_V3.INSURANCE.RISK_ASSESSMENTS
+-- FSI_DEMO_DB.INSURANCE.RISK_ASSESSMENTS
 
-CREATE OR REPLACE TABLE FSI_DEMO_DB_V3.INSURANCE.RISK_ASSESSMENTS (
+CREATE OR REPLACE TABLE FSI_DEMO_DB.INSURANCE.RISK_ASSESSMENTS (
 
     ASSESSMENT_ID VARCHAR(20) NOT NULL,
     POLICYHOLDER_ID VARCHAR(20),
@@ -22,7 +22,7 @@ CREATE OR REPLACE TABLE FSI_DEMO_DB_V3.INSURANCE.RISK_ASSESSMENTS (
 
 );
 
-INSERT INTO FSI_DEMO_DB_V3.INSURANCE.RISK_ASSESSMENTS (ASSESSMENT_ID, POLICYHOLDER_ID, ASSESSMENT_DATE, ASSESSMENT_TYPE, UNDERWRITER_ID, HEALTH_SCORE, LIFESTYLE_RISK, OCCUPATION_RISK, LOCATION_RISK, PRIOR_CLAIMS_COUNT, PRIOR_CLAIMS_AMOUNT, CREDIT_BASED_SCORE, OVERALL_RISK_GRADE, RECOMMENDATION, NOTES, CREATED_AT) VALUES
+INSERT INTO FSI_DEMO_DB.INSURANCE.RISK_ASSESSMENTS (ASSESSMENT_ID, POLICYHOLDER_ID, ASSESSMENT_DATE, ASSESSMENT_TYPE, UNDERWRITER_ID, HEALTH_SCORE, LIFESTYLE_RISK, OCCUPATION_RISK, LOCATION_RISK, PRIOR_CLAIMS_COUNT, PRIOR_CLAIMS_AMOUNT, CREDIT_BASED_SCORE, OVERALL_RISK_GRADE, RECOMMENDATION, NOTES, CREATED_AT) VALUES
 ('RA0000000', 'PH00000000', '2026-02-17', 'NEW_BUSINESS', 'UW0000', '60', 'LOW', 'LOW', 'LOW', '0', '0.00', '580', 'A', 'Approve at standard rates. Risk profile within acceptable parameters.', 'Standard risk profile. Clean claims history. Stable employment and residence. No adverse credit indicators. Recommend standard policy terms.', '2026-02-17 14:29:13.959'),
 ('RA0000001', 'PH00000001', '2026-02-12', 'RENEWAL', 'UW0001', '67', 'LOW', 'LOW', 'LOW', '1', '2100.00', '591', 'A', 'Approve with preferred pricing. Excellent risk characteristics.', 'Excellent risk profile. Long-term customer with no claims in 5+ years. High credit score. Professional occupation with low risk exposure. Qualifies for loyalty discount.', '2026-02-17 14:29:13.959'),
 ('RA0000002', 'PH00000002', '2026-02-07', 'MID_TERM_CHANGE', 'UW0002', '74', 'MODERATE', 'LOW', 'MODERATE', '2', '4400.00', '602', 'A', 'Approve with rate surcharge of 15%. Elevated risk factors noted.', 'Moderate risk with some concerns. Two at-fault accidents in past 3 years. Occupation involves regular travel. Consider higher deductible options.', '2026-02-17 14:29:13.959'),
@@ -1024,7 +1024,7 @@ INSERT INTO FSI_DEMO_DB_V3.INSURANCE.RISK_ASSESSMENTS (ASSESSMENT_ID, POLICYHOLD
 ('RA0000998', 'PH00000998', '2024-06-17', 'MID_TERM_CHANGE', 'UW0048', '86', 'MODERATE', 'LOW', 'HIGH', '3', '17400.00', '758', 'D', 'Refer to senior underwriter. Additional review required.', 'Complex risk requiring senior review. Recent claim activity above average. Credit score trending downward. Property in high-risk area for weather events.', '2026-02-17 14:29:13.959'),
 ('RA0000999', 'PH00000999', '2024-06-12', 'PERIODIC_REVIEW', 'UW0049', '93', 'HIGH', 'MODERATE', 'MODERATE', '4', '23600.00', '769', 'E', 'Decline. Risk outside of appetite. Recommend specialty market.', 'High risk profile outside standard guidelines. Multiple claims with fraud indicators. Poor credit history. High-risk occupation. Recommend declination or specialty placement.', '2026-02-17 14:29:13.959');
 
-INSERT INTO FSI_DEMO_DB_V3.INSURANCE.RISK_ASSESSMENTS (ASSESSMENT_ID, POLICYHOLDER_ID, ASSESSMENT_DATE, ASSESSMENT_TYPE, UNDERWRITER_ID, HEALTH_SCORE, LIFESTYLE_RISK, OCCUPATION_RISK, LOCATION_RISK, PRIOR_CLAIMS_COUNT, PRIOR_CLAIMS_AMOUNT, CREDIT_BASED_SCORE, OVERALL_RISK_GRADE, RECOMMENDATION, NOTES, CREATED_AT) VALUES
+INSERT INTO FSI_DEMO_DB.INSURANCE.RISK_ASSESSMENTS (ASSESSMENT_ID, POLICYHOLDER_ID, ASSESSMENT_DATE, ASSESSMENT_TYPE, UNDERWRITER_ID, HEALTH_SCORE, LIFESTYLE_RISK, OCCUPATION_RISK, LOCATION_RISK, PRIOR_CLAIMS_COUNT, PRIOR_CLAIMS_AMOUNT, CREDIT_BASED_SCORE, OVERALL_RISK_GRADE, RECOMMENDATION, NOTES, CREATED_AT) VALUES
 ('RA0001000', 'PH00001000', '2024-06-07', 'NEW_BUSINESS', 'UW0000', '60', 'LOW', 'MODERATE', 'LOW', '0', '0.00', '780', 'A', 'Approve at standard rates. Risk profile within acceptable parameters.', 'Standard risk profile. Clean claims history. Stable employment and residence. No adverse credit indicators. Recommend standard policy terms.', '2026-02-17 14:29:13.959'),
 ('RA0001001', 'PH00001001', '2024-06-02', 'RENEWAL', 'UW0001', '67', 'LOW', 'HIGH', 'LOW', '1', '6100.00', '791', 'A', 'Approve with preferred pricing. Excellent risk characteristics.', 'Excellent risk profile. Long-term customer with no claims in 5+ years. High credit score. Professional occupation with low risk exposure. Qualifies for loyalty discount.', '2026-02-17 14:29:13.959'),
 ('RA0001002', 'PH00001002', '2024-05-28', 'MID_TERM_CHANGE', 'UW0002', '74', 'MODERATE', 'LOW', 'MODERATE', '2', '12400.00', '802', 'A', 'Approve with rate surcharge of 15%. Elevated risk factors noted.', 'Moderate risk with some concerns. Two at-fault accidents in past 3 years. Occupation involves regular travel. Consider higher deductible options.', '2026-02-17 14:29:13.959'),
