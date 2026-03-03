@@ -8,3 +8,9 @@ To deploy each table run the SQL code in the respective file.
 You can either deploy the entire example data set by running all of the SQL files (including [00_setup.sql](https://github.com/sfc-gh-csharkey/Sample_Data_Financial_Services/blob/main/00_setup.sql)) or you can selectively deploy certain tables by running individual files. 
 
 You will need a virtual warehouse to create the SQL files. These scripts will not create one for you.
+
+## Prompt used to generate the synthetic data
+
+This synthetic data was created with the following prompt via. Cortex Code 
+
+```Generate realistic looking sythetic data specific to the Financial Services Industry. Create a new database and a schema for each sub-industry (ex. Banking, Capital Markets, Insurance etc.) With in each schema create tables with the sythetic data. I will be useing this sythetic data to build demos show casing Snowflake's AI/ML and Gen. AI capabilities.```
