@@ -5,6 +5,6 @@ The synthetic / demo data is structured by FSI sub-domain, with each sub-domain 
 
 To deploy each table run the SQL code in the respective file. 
 
-You can either deploy the entire example data set by running all of the SQL files (including [00_setup.sql](https://github.com/sfc-gh-csharkey/Sample_Data_Financial_Services/blob/main/00_setup.sql) or you can selectively deploy certain tables by running individual files. 
+You can either deploy the entire example data set by running all of the SQL files (including [00_setup.sql](https://github.com/sfc-gh-csharkey/Sample_Data_Financial_Services/blob/main/00_setup.sql)) or you can selectively deploy certain tables by running individual files. 
 
 You will need a virtual warehouse to create the SQL files. These scripts will not create one for you.
